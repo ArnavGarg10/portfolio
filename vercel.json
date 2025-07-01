@@ -1,14 +1,9 @@
 {
   "version": 2,
-  "functions": {
-    "api/index.handler.js": {
-      "runtime": "@vercel/node@3.0.0"
-    }
-  },
+  "builds": [
+    { "src": "package.json", "use": "@vercel/static-build" }
+  ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "api/index.handler.js"
-    }
+    { "src": "/(.*)", "dest": "/$1" }
   ]
 }
