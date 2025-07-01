@@ -1,7 +1,14 @@
 {
+  "version": 2,
   "functions": {
-    "_render.js": {
-      "runtime": "nodejs20.x"
+    "api/**/*.js": {
+      "runtime": "vercel/node@20.x"
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/bin/www"
+    }
+  ]
 }
