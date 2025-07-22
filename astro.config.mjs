@@ -8,6 +8,6 @@ import vercel from '@astrojs/vercel/edge';
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), icon(), compress()],
-  output: "server",
+  output: "static",
   adapter: vercel()
 });
