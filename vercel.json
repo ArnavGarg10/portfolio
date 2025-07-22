@@ -1,13 +1,5 @@
 {
   "version": 2,
-    "functions": {
-    "_functions/**/*.js": {
-      "runtime": "nodejs22.x"
-    },
-    "_functions/**/*.mjs": {
-      "runtime": "nodejs22.x"
-    }
-  },
   "builds": [
     { "src": "package.json", "use": "@vercel/static-build" }
   ],
