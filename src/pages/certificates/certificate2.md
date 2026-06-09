@@ -1,9 +1,9 @@
 ---
-title: Best Delegate
-org: miniMUN - Foothill MUN
-tags: [Model UN, Debate, Public Speaking]
-url: https://foothillmun.square.site
-date: 2024
+title: "2nd Place — YC x Moss Conversational AI Hackathon 2026"
+org: YC x Moss Hackathon
+tags: ["YCombinator", "Conversational AI", "Hardware", "Raspberry Pi", "Hackathon"]
+url: https://github.com/NikhilKonduru8/YCxMoss-Conversational-AI-Hackathon-2026
+date: 2026
 ---
 
-I won the Best Delegate award at a local model UN conference, miniMUN 2024, in a committee related to refugee education. The chairs of that commitee, experienced in Model UN, decided that I had demonstrated the best public speaking skills and therefore, I was awarded the Best Delegate award.
+Won 2nd Place at the YC x Moss Conversational AI Hackathon 2026 for building Jarvis, a real-time vision-grounded AI co-pilot worn as smart glasses. Competed as a high school sophomore against Ivy League graduates, industry professionals, and technical founders.

@@ -1,9 +1,9 @@
 ---
-title: Best Research
-org: miniMUN - Foothill MUN
-tags: [Model UN, Debate, Public Speaking]
-url: https://foothillmun.square.site
-date: 2024
+title: "Top 15 — Code for Hope Hackathon"
+org: Code for Hope
+tags: ["Hackathon", "AI", "Software Development"]
+url: https://drive.google.com/file/d/1ErPKUdEoHw48Bbkzr-K3c2GjdPXPUC9-/view?usp=sharing
+date: 2025
 ---
 
-I won the Best Research award at a local model UN conference, FHSMUNC 2024, in a committee related to AI data concerns. The chairs of that commitee, experienced in Model UN, decided that I had demonstrated the best writing and research skills, therefore I was awarded the Best Research award. I won this award out of a committee of around 15 delegates, all of whom were in high school besides me.
+Placed in the Top 15 at the Code for Hope Hackathon, a competitive event bringing together student developers to build impactful software solutions.

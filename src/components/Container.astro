@@ -3,14 +3,10 @@ import { Icon } from "astro-icon/components";
 import AccordionLayout from "../layouts/AccordionLayout.astro";
 import * as about from "../pages/about/about.md";
 import Card from "./Card.astro";
-import ContactCard from "./ContactCard.astro";
 const works = await Astro.glob("../pages/works/*.md");
 const projects = await Astro.glob("../pages/projects/*.md");
 const studies = await Astro.glob("../pages/studies/*.md");
 const certificates = await Astro.glob("../pages/certificates/*.md");
-const blogs = await Astro.glob("../pages/blogs/*.md");
-const contact = await Astro.glob("../pages/contact/*.md");
-const PDF = "/AI_ML Course Poster.pdf";
 ---
 
 <div class="join join-vertical gap-1">
@@ -47,7 +43,7 @@ const PDF = "/AI_ML Course Poster.pdf";
             timeframe={item.frontmatter.date}
             location={item.frontmatter.location}
             tags={item.frontmatter.tags}
-            url={item.url}
+            url={item.frontmatter.url}
             url_name={item.frontmatter.institute}
           />
         );
@@ -82,66 +78,10 @@ const PDF = "/AI_ML Course Poster.pdf";
             description={item.compiledContent()}
             tags={item.frontmatter.tags}
             url={item.frontmatter.url}
-            url_name={"View Award"}
+            url_name={"View"}
           />
         );
       })
     }
-  </AccordionLayout>
-
-  <AccordionLayout title={"Blogs"} icon={"carbon:pen"}>
-    {
-      blogs.map((item) => {
-        return (
-          <Card
-            title={item.frontmatter.title}
-            timeframe={item.frontmatter.date}
-            description={item.compiledContent()}
-            url={item.frontmatter.url}
-            url_name={item.frontmatter.url_name}
-          />
-        );
-      })
-    }
-  </AccordionLayout>
-
-  <AccordionLayout title={"Files"} icon={"carbon:volume-file-storage"}>
-    <div class="flex justify-center w-full">
-      <div
-        class="card card-compact card-bordered border-[oklch(var(--s))] w-96 md:w-112 lg:w-128 hover:shadow-lg transition-all"
-      >
-        <figure>
-          <object data={PDF} type="application/pdf" width="100%"></object>
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">AI/ML Course Poster</h2>
-          <p>View and download my poster for the AI/ML course I co-hosted</p>
-          <div class="card-actions justify-end">
-            <a target="_blank" href={PDF}>
-              <button class="btn btn-outline">
-                <p>Download poster</p>
-                <Icon name="carbon:document-pdf" class="w-6 h-6 ml-1" />
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </AccordionLayout>
-
-  <AccordionLayout title={"Contact"} icon={"carbon:location-person"}>
-    <div class="flex flex-wrap content-around gap-4 justify-center">
-      {
-        contact.map((item) => {
-          return (
-            <ContactCard
-              url={item.frontmatter.url}
-              url_name={item.frontmatter.title}
-              icon={item.frontmatter.icon}
-            />
-          );
-        })
-      }
-    </div>
   </AccordionLayout>
 </div>

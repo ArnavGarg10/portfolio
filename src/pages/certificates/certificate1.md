@@ -1,9 +1,9 @@
 ---
-title: Best Delegate
-org: miniMUN - Foothill MUN
-tags: [Model UN, Debate, Public Speaking]
-url: https://foothillmun.square.site
-date: 2025
+title: "1st Place — NASA Space Apps Challenge 2025"
+org: NASA Space Apps Challenge (Mountain View)
+tags: ["NASA", "Hackathon", "Machine Learning", "Hardware", "Satellite Data"]
+url: https://drive.google.com/file/d/1OlM6_QkKEAOj5yTRoJwz3WyXKZW11E9B/view?usp=sharing
+date: October 2025
 ---
 
-I won the Best Delegate award at a local model UN conference, miniMUN 2024, in a committee related to a crisis among the Avengers (Sokovia Accords). The chairs of that commitee, experienced in Model UN, decided that I had demonstrated the best public speaking skills and therefore, I was awarded the Best Delegate award.
+Won 1st Place at the NASA Space Apps Challenge 2025 - Mountain View for creating DELTA., a shark foraging prediction system using real NASA SWOT and PACE satellite data. Competed against 69 teams including university students from MIT and UC Berkeley as a high school freshman. The project was later selected as a Global Nominee for worldwide judging.

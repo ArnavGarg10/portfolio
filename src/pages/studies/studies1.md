@@ -1,9 +1,9 @@
 ---
 title: Student
-location: Hart Middle School
-url: http://hart.pleasantonusd.net/
+location: Amador Valley High School
+url: "https://amador.pleasantonusd.net"
 institute: Pleasanton Unified School District
-date: 2022-2025
+date: 2025-2029
 tags:
   [
     "Software Development",

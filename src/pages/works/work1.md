@@ -1,12 +1,13 @@
 ---
-title: Co-lead - AI/ML Summer Course
-date: 2024 - 2025
-url: https://beginneraiml.vercel.app
+title: Electrical Engineer
+date: August 2025 - Present
+url: "https://avbotz.com"
 location: Pleasanton, California
-org: Beginner AI/ML
-tags: ["Computer Science Education", "Leadership"]
+org: AVBotz (Amador Valley Robotics Team)
+tags: ["PCB Design", "KiCAD", "Raspberry Pi", "Hardware Engineering"]
 ---
 
-- Hosted a free summer course with an introduction to artificial intelligence and machine learning in Python
-- Taught 20 kids aged 12-15, with 25+ signups in the first 24 hours.
-- Covered fundamental topics such as regression and classification and utilized Python packages such as pandas, numpy, matplotlib, and scikit-learn
+- Designed a custom PCB for Raspberry Pi Pico to interface with and control a competition submarine
+- Updated motherboard PCB to facilitate more efficient thruster control using PWM and daisy-chained CAN bus
+- Conducted maintenance on submarine through crimping, soldering, and testing with new circuit boards
+- Performed continuity tests on vital systems using breadboards, multimeters, and DC power supplies
